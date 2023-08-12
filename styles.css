@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #98ff98; /* Spearmint Green */
+  transition: background-color 0.5s;
+}
+
+.night-mode-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Night mode styles */
+body.night-mode {
+  background-color: #000000; /* Black */
+}
+
+.night-mode .moon {
+  color: #ffffff;
+}
